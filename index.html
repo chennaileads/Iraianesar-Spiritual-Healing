@@ -20,14 +20,15 @@
         /* Language toggle visibility - FIXED */
         .lang-en .tamil-text { display: none !important; }
         .lang-tamil .en-text { display: none !important; }
-        .lang-en .en-text { display: inline-block !important; }
-        .lang-tamil .tamil-text { display: inline-block !important; }
+        .lang-en .en-text { display: inline-block !important;
+        width:100%; }
+        .lang-tamil .tamil-text { display: inline-block !important;  width:100%;}
         
         /* Block elements fix */
         .lang-en .tamil-block { display: none !important; }
         .lang-tamil .en-block { display: none !important; }
-        .lang-en .en-block { display: block !important; }
-        .lang-tamil .tamil-block { display: block !important; }
+        .lang-en .en-block { display: block !important;  width:100%;}
+        .lang-tamil .tamil-block { display: block !important; width:100%; }
         
         /* Sec-title fix - ensure both languages show properly */
         .sec-title.en-text, 
@@ -37,18 +38,21 @@
         .box-title.en-text,
         .box-title.tamil-text {
             display: inline-block !important;
+            width: 100%;
         }
         
         .lang-en .sec-title.tamil-text,
         .lang-en .hero-title.tamil-text,
         .lang-en .box-title.tamil-text {
             display: none !important;
+             width: 100%;
         }
         
         .lang-tamil .sec-title.en-text,
         .lang-tamil .hero-title.en-text,
         .lang-tamil .box-title.en-text {
             display: none !important;
+             width: 100%;
         }
 
         /* Floating contact */
@@ -291,8 +295,6 @@
                 <h2 class="sec-title en-text">Our Spiritual Treatments</h2>
                 <h2 class="sec-title tamil-text">எங்கள் ஆன்மீக சிகிச்சைகள்</h2>
                 <span class="title-img"><img src="assets/img/theme-img/title_shape2.svg" alt="shape"></span>
-                <p class="text-muted mt-2 en-text" style="max-width:700px;margin:0 auto;">Quranic healing & divine grace for every difficulty – protection, love, health, business, marriage and more.</p>
-                <p class="text-muted mt-2 tamil-text" style="max-width:700px;margin:0 auto;">ஒவ்வொரு சிரமத்திற்கும் குர்ஆன் சிகிச்சை & தெய்வீக அருள் – பாதுகாப்பு, அன்பு, உடல்நலம், தொழில், திருமணம் மற்றும் பல.</p>
             </div>
             <div class="slider-wrap text-center">
                 <div class="swiper th-slider serviceSlide has-shadow" id="serviceSlide" data-slider-options='{"paginationType":"fraction","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}}'>
