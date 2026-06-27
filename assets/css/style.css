@@ -31533,7 +31533,7 @@ form[id*=give-form] #give-gateway-radio-list {
 
 .service-block .box-img {
   border-radius: 16px;
-  margin-bottom: -225px;
+  /* margin-bottom: -225px; */
   overflow: hidden;
   position: relative;
   z-index: 2;
